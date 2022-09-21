@@ -1,0 +1,2 @@
+# board_game
+A simple board game in vanilla js
