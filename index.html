@@ -33,13 +33,14 @@
     <script>
         window.onload = function(){
             let worldMapStr = "_,_,_,_\n"+
-                              "_,M,_,_\n"+
-                              "_,_,_,_\n"+
+                              "_,_,_,k\n"+
+                              "M,_,_,_\n"+
                               "_,_,_,C"
 
             let assetMap = new Map()
             assetMap.set("M","assets/mouse.png")
             assetMap.set("C","assets/cheese.png")
+            assetMap.set("k","assets/cat.png")
 
 
             let directionMap = new Map()
